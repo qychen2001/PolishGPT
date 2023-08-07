@@ -21,5 +21,4 @@ TODO
 ## 交流群
 
 如果你对这个工具感兴趣，或是想要参与开发，或是想要闲聊。都欢迎加入下面的群。
-
-![]()
+<img src="https://github.com/qiyuan-chen/PolishGPT/blob/main/image/wx_group.jpg" width = "50%" />
