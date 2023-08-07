@@ -4,9 +4,6 @@ import openai
 
 import gradio as gr
 
-# llm = OpenAI(openai_api_key="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")
-#
-# print(llm("tell me a joke"))
 
 FEACTURE_DICT = {
     "更精确的措辞": "More precise: Use more precise terms, such as 'generate' instead of 'produce' or 'analyze' instead of 'look at'.",
