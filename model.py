@@ -99,6 +99,9 @@ def polish_prompt(polish_level, features_p, length_req, length, input_text, pape
 You are exceptionally skilled at polishing a piece of text to meet publication standards.
 Your task is to refine the input text to meet publication standards based on the requirements.
 The input text is enclosed in triple single quotation marks ('''), for example: '''This is the input text.'''
+
+If the input text includes tex or latex syntax, such as cite and equation, etc., please keep the formatting and do not modify the formatting.
+
 For the input text, you need to {LEVEL_DICT[polish_level]}. And you need to {length_prompt}.
 The more detailed requirements are as follows:
 {features_prompt}
