@@ -7,7 +7,7 @@ with gr.Blocks() as interface:
         # PolishGPT: 用GPT改善你的论文写作！
         由于每次都要用ChatGPT润色都要写复杂的Prompt，所以我设计了一个WebUI，可以快速润色论文。
         如果这个项目对你有帮助，欢迎去[这里](https://github.com/qiyuan-chen/PolishGPT)给我点一个star！有任何问题或者你觉得好用的润色Prompt也欢迎在Issue中提出。
-        ## **这个项目由[陈启源](https://qiyuan-chen.github.io/) @ 华中师范大学 开发。目前陈启源同学正在寻找24Fall推免导师，欢迎联系！**
+        ## **这个项目由[陈启源](https://qiyuan-chen.github.io/) @ 华中师范大学 开发。**
         """)
     with gr.Row():
         with gr.Tab("基础设置"):
@@ -70,4 +70,4 @@ with gr.Blocks() as interface:
             output_text_3 = gr.Textbox(lines=6, label="输出文本", show_copy_button=True)
             submit_3 = gr.Button(label="开始生成")
 
-interface.launch(share=True)
+interface.launch(share=True,server_name="192.168.0.243")

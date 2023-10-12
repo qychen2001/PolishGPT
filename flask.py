@@ -13,7 +13,7 @@ with gr.Blocks() as interface:
         with gr.Tab("基础设置"):
             with gr.Row():
                 with gr.Column():
-                    api_key = gr.Textbox(label="OpenAI API Key",value="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")
+                    api_key = gr.Textbox(label="OpenAI API Key")
                     temperature = gr.Slider(minimum=0.0, maximum=1.0, value=0, step=0.1, label="Temperature",
                                             info="控制生成文本的随机性。数值越小，模型的确定性越高")
                 with gr.Column():
